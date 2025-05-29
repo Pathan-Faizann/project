@@ -1,0 +1,221 @@
+h1{
+    color: white;
+    background-color:#003049;
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    left:32%;
+    width: 500px;
+    font-size: 44px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
+    font-weight: 300;
+}
+.option img{
+    height: 100px ;
+    width: 100px;
+    object-fit: cover; 
+    border: 2px solid transparent;
+
+}
+.option{
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    top: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+body{
+    background-color:white;
+}
+.move{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+    background-color: #003049;
+    width: 450px;
+    color: white;
+    position: absolute;
+    top: 55%;
+    border-radius: 50px;
+    text-align: center;
+
+
+}
+.option img:hover{
+    border: 2px solid #003049;
+    
+
+}
+
+.sub:hover{
+    background-color: #0b4463;
+    transform: scale(1.5);
+    
+}
+.sub{
+    height: 40px;
+    font-size: 30px;
+    position: absolute;
+    left: 40%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 75%;
+    transition: transform .6s;
+    background-color:#003049 ;
+    color: white;
+    border-radius:50px ;
+    width: 120px;
+}
+.user{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    border: 2px solid black;
+
+}
+.newuser{
+    border: 12px solid green;
+}
+
+.pointU{
+    background-color:#003049 ;
+    color: white;
+    width: 190px;
+    height: 38px;
+    padding: 10px;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    text-align: left;
+    top: 14%;
+    border-radius: 50px;
+    font-size: 24px;
+}
+.tho{
+    position: absolute;
+    right: 25%;
+    top: 58%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+#wonn{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 60%;
+    right: 39%;
+}
+
+#think{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.res{
+    font-family: fantasy;
+    position: absolute;
+    top: 20%;
+    left: 26%;
+    width: 420px;
+    font-size: 56px;
+    color: goldenrod;
+    display: flex;
+    border-radius: 50px;
+    background-color: white;
+    align-items:center ;
+    text-align: center;
+    visibility: hidden;
+    align-content:center ;
+    justify-content: center;
+}
+.result{
+    height: 430px;
+    width: 880px;
+    box-shadow: 0 0 16px black;
+    position: absolute;
+    top: 16%;
+    left: 17%;
+    text-align: center;
+    visibility: hidden;
+}
+.loser p{
+    font-family: fantasy;
+    position: absolute;
+    top: 20%;
+    left: 26%;
+    width: 420px;
+    font-size: 56px;
+    color: goldenrod;
+    display: flex;
+    border-radius: 50px;
+    background-color: white;
+    align-items:center ;
+    text-align: center;
+    visibility: hidden;
+    align-content:center ;
+    justify-content: center;
+}
+.loser video{
+    object-fit: cover;
+    height: 830px;
+    width: 1000px;
+}
+.loser{
+    height: 830px;
+    width: 1000px;
+    box-shadow: 0 0 16px black;
+    position: absolute;
+    top: 2%;
+    left: 13%;
+    visibility: hidden;
+    text-align: center;
+  
+}
+.result video{
+    object-fit: cover;
+    width: 880px;
+}
+.pointC{
+    background-color:#003049 ;
+    color: white;
+    text-align: left;
+    width: 250px;
+    height: 38px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    font-weight: 800;
+    position: absolute;
+    right: 1%;
+    top: 14%;
+    border-radius: 50px;
+    font-size: 24px;
+}
+.user img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.comp img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.comp{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 25%;
+    border: 2px solid black;
+    top: 20%;
+}
+.newcomp{
+    border: 12px solid green;
+}
