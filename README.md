@@ -1,4 +1,4 @@
 # Stone Paper Scissors
-my first project on 
+my first project on Github
 <br>
-Name:Pathan faizan
+Project Link: https://pathan-faizann.github.io/project/
